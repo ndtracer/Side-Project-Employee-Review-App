@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!-- Styles -->
+<link rel="stylesheet" href="Styles.css/globals.css">
+<link rel="stylesheet" href="Styles.css/login-page.css">
+
+<!-- Scripts -->
+<script defer src="Scripts.js/login-page.js"></script>
+
+
+</head>
+<body class="body">
+    <header class="header">
+        <!-- <div class="designleft"></div> -->
+        <h1 class="h1">Welcome</h1>
+        <!-- <div class="designright"></div> -->
+    </header>
+
+    <div id="login-error-msg-holder">
+        <p id="login-error-message"> Invalid username 
+            <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+    
+    <form id="login-form">
+        <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+        <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+        <input type="submit" value="Login" id="login-form-submit">
+    </form>
+</body>
+</html>
