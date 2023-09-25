@@ -1,4 +1,4 @@
-.sel-main {
+/* .sel-main {
     display: flex;
     align-items:flex-start;
     
@@ -24,4 +24,72 @@
 #selpageh3 {
     text-align: center;
     opacity: 1;
+} */
+
+/* 
+#worksiteAddRemMenu {
+   display: none;
+} */
+
+.selectionMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+
+
+
+#worksiteAddRemMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    margin: 4px;
+    margin-left: 20px;
+    padding: 4px;
+    
+
+}
+
+
+
+#worksiteAddTitle {
+    display: none;
+    margin: 4px;
+    
+}
+
+.cancelSubmitBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#worksiteAddCancel {
+    display: none;
+    align-items: center;
+    width: 60px;
+    height: 23px;
+    margin: 4px;
+}
+
+#worksiteAddSubmit {
+    display: none;
+    margin: 4px;
+
+    
+}
+
+#worksiteRemSubmit {
+    display: none;
+}
+
+.addRemBtn {
+    display: flex;
+    justify-content: center;
+}
+
