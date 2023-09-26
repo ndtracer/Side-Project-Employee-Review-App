@@ -214,4 +214,7 @@ function worksiteEditFormToggle () {
 
     document.getElementsByClassName('this.worksiteListItem')
        
+    worksiteListItem.appendChild("editWorksiteForm")
+    
+    editWorksiteForm.appendChild ("editWorksiteInput")
 }
